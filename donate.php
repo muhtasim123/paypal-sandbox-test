@@ -2,7 +2,7 @@
 session_start();
 include'dbconnection.php';
 if(isset($_POST['submit']))
-{
+{/*
   $query=mysqli_query($con,"select * from fundraiser");
   $row=mysqli_fetch_array($query);
   $current=$row['current'];
@@ -13,7 +13,7 @@ if(isset($_POST['submit']))
   if($query_run)
   {
     echo "<script>alert('Database worked');</script>";
-  }
+  }*/
 }
 ?>
 

@@ -1,6 +1,6 @@
 <?php
 session_start();
-include'dbconnection.php';
+include'dbconnection.php';/*
 if(isset($_POST['submit']))
 {
   $query=mysqli_query($con,"select * from fundraiser");
@@ -14,7 +14,7 @@ if(isset($_POST['submit']))
   {
     echo "<script>alert('Database worked');</script>";
   }
-}
+}*/
 ?>
 
 <!DOCTYPE html>

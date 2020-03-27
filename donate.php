@@ -32,7 +32,7 @@ if(isset($_POST['submit']))
 <input type="hidden" name="cmd" value="_xclick">
 <input type="hidden" name="business" value="sb-4fv421186728@business.example.com">
 <input type="hidden" name="lc" value="CA">
-<input type="hidden" name="item_name" value="donation">
+<input type="hidden" name="item_name" value="Donation">
 <input type="hidden" name="button_subtype" value="services">
 <input type="hidden" name="no_note" value="0">
 <input type="hidden" name="cn" value="Add special instructions to the seller:">
@@ -40,14 +40,23 @@ if(isset($_POST['submit']))
 <input type="hidden" name="currency_code" value="CAD">
 <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHosted">
 <table>
-<tr><td>
-<input type="hidden" name="on0" value="Amount">Amount</td></tr><tr><td>
-<input type="text" name="os0" maxlength="200">
-</td></tr>
+<tr><td><input type="hidden" name="on0" value="prices">prices</td></tr><tr><td><select name="os0">
+	<option value="Option1">$5.00 CAD</option>
+	<option value="Option2">$10.00 CAD</option>
+	<option value="Option3">$20.00 CAD</option>
+</select> </td></tr>
 </table>
+<input type="hidden" name="option_select0" value="Option 1">
+<input type="hidden" name="option_amount0" value="5.00">
+<input type="hidden" name="option_select1" value="Option 2">
+<input type="hidden" name="option_amount1" value="10.00">
+<input type="hidden" name="option_select2" value="Option 3">
+<input type="hidden" name="option_amount2" value="20.00">
+<input type="hidden" name="option_index" value="0">
 <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
+
 
 </body>
 </html>

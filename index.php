@@ -28,7 +28,7 @@ include'dbconnection.php';
 							  {?>
                               <tr>
                               <td><?php echo $cnt;?></td>
-                                  <td><?php echo $row['fname'];?></td>
+                                  <td><?php echo $row['name'];?></td>
                                   <td>
                                     <a href="donate.php?uid=<?php echo $row['id'];?>">Donate</a>
                                   </td>

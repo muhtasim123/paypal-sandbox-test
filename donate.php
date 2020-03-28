@@ -1,3 +1,6 @@
+<?php
+	$uid=intval($_GET['uid']);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -60,6 +63,9 @@
 <input type="hidden" name="currency_code" value="CAD">
 <input type="hidden" name="no_note" value="0">
 <input type="hidden" name="no_shipping" value="2">
+<input type="hidden" name="rm" value="1">
+<input type="hidden" name="return" value="http://paypal-sandbox-test.herokuapp.com/success.php?uid=<?php echo $uid;?>">
+<input type="hidden" name="cancel_return" value="http://paypal-sandbox-test.herokuapp.com/cancel.php?uid=<?php echo $uid;?>">
 <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHosted">
 <input type="submit" name="submit" class="button" value="$10.00">
 </form>
@@ -81,6 +87,9 @@
 <input type="hidden" name="currency_code" value="CAD">
 <input type="hidden" name="no_note" value="0">
 <input type="hidden" name="no_shipping" value="2">
+<input type="hidden" name="rm" value="1">
+<input type="hidden" name="return" value="http://paypal-sandbox-test.herokuapp.com/success.php?uid=<?php echo $uid;?>">
+<input type="hidden" name="cancel_return" value="http://paypal-sandbox-test.herokuapp.com/cancel.php?uid=<?php echo $uid;?>">
 <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHosted">
 <input type="submit" name="submit" class="button" value="$20.00">
 </form>
@@ -102,6 +111,9 @@
 <input type="hidden" name="currency_code" value="CAD">
 <input type="hidden" name="no_note" value="0">
 <input type="hidden" name="no_shipping" value="2">
+<input type="hidden" name="rm" value="1">
+<input type="hidden" name="return" value="http://paypal-sandbox-test.herokuapp.com/success.php?uid=<?php echo $uid;?>">
+<input type="hidden" name="cancel_return" value="http://paypal-sandbox-test.herokuapp.com/cancel.php?uid=<?php echo $uid;?>">
 <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHosted">
 <input type="submit" name="submit" class="button" value="$30.00">
 </form>
@@ -123,6 +135,9 @@
 <input type="hidden" name="currency_code" value="CAD">
 <input type="hidden" name="no_note" value="0">
 <input type="hidden" name="no_shipping" value="2">
+<input type="hidden" name="rm" value="1">
+<input type="hidden" name="return" value="http://paypal-sandbox-test.herokuapp.com/success.php?uid=<?php echo $uid;?>">
+<input type="hidden" name="cancel_return" value="http://paypal-sandbox-test.herokuapp.com/cancel.php?uid=<?php echo $uid;?>">
 <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHosted">
 <input type="submit" name="submit" class="button" value="$50.00">
 </form>

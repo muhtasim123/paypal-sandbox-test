@@ -19,6 +19,8 @@ include'dbconnection.php';
                               <tr>
                                   <th></th>
                                 <th>Name</th>
+				      <th>Current</th>
+				      <th>Goal</th>
                               </tr>
                               </thead>
                               <tbody>
@@ -29,6 +31,8 @@ include'dbconnection.php';
                               <tr>
                               <td><?php echo $cnt;?></td>
                                   <td><?php echo $row['name'];?></td>
+				      <td><?php echo $row['current'];?></td>
+				      <td><?php echo $row['goal'];?></td>
                                   <td>
                                     <a href="donate.php?uid=<?php echo $row['id'];?>">Donate</a>
                                   </td>

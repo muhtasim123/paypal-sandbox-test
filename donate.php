@@ -48,7 +48,7 @@
 
 <td>
 <div align="center">
-<form target="_self" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<form target="_self" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_donations">
 <!-- Replace "business" value with your PayPal Email Address or your Merchant Account ID -->
 <input type="hidden" name="business" value="sb-4fv421186728@business.example.com">
@@ -72,7 +72,7 @@
 
 <td>
 <div align="center">
-<form target="_self" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<form target="_self" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_donations">
 <!-- Replace "business" value with your PayPal Email Address or your Merchant Account ID -->
 <input type="hidden" name="business" value="sb-4fv421186728@business.example.com">
@@ -96,7 +96,7 @@
 
 <td>
 <div align="center">
-<form target="_self" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<form target="_self" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_donations">
 <!-- Replace "business" value with your PayPal Email Address or your Merchant Account ID -->
 <input type="hidden" name="business" value="sb-4fv421186728@business.example.com">
@@ -120,7 +120,7 @@
 
 <td>
 <div align="center">
-<form target="_self" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<form target="_self" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_donations">
 <!-- Replace "business" value with your PayPal Email Address or your Merchant Account ID -->
 <input type="hidden" name="business" value="sb-4fv421186728@business.example.com">

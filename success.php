@@ -1,4 +1,6 @@
 <?php
+	session_start();
+	include'dbconnection.php';
 	$uid=intval($_GET['uid']);
 	$tempamount=intval($_GET['amount']);
 	

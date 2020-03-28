@@ -52,7 +52,7 @@
 <input type="hidden" name="cmd" value="_donations">
 <!-- Replace "business" value with your PayPal Email Address or your Merchant Account ID -->
 <input type="hidden" name="business" value="sb-4fv421186728@business.example.com">
-<input type="hidden" name="item_name" value="Widget Donations">
+<input type="hidden" name="item_name" value="Donations">
 <input type="hidden" name="item_number" value="W-D-10">
 <input type="hidden" name="tax" value="0">
 <input type="hidden" name="lc" value="US">
@@ -76,7 +76,7 @@
 <input type="hidden" name="cmd" value="_donations">
 <!-- Replace "business" value with your PayPal Email Address or your Merchant Account ID -->
 <input type="hidden" name="business" value="sb-4fv421186728@business.example.com">
-<input type="hidden" name="item_name" value="Widget Donations">
+<input type="hidden" name="item_name" value="Donations">
 <input type="hidden" name="item_number" value="W-D-20">
 <input type="hidden" name="tax" value="0">
 <input type="hidden" name="lc" value="US">
@@ -100,7 +100,7 @@
 <input type="hidden" name="cmd" value="_donations">
 <!-- Replace "business" value with your PayPal Email Address or your Merchant Account ID -->
 <input type="hidden" name="business" value="sb-4fv421186728@business.example.com">
-<input type="hidden" name="item_name" value="Widget Donations">
+<input type="hidden" name="item_name" value="Donations">
 <input type="hidden" name="item_number" value="W-D-30">
 <input type="hidden" name="tax" value="0">
 <input type="hidden" name="lc" value="US">
@@ -124,7 +124,7 @@
 <input type="hidden" name="cmd" value="_donations">
 <!-- Replace "business" value with your PayPal Email Address or your Merchant Account ID -->
 <input type="hidden" name="business" value="sb-4fv421186728@business.example.com">
-<input type="hidden" name="item_name" value="Widget Donations">
+<input type="hidden" name="item_name" value="Donations">
 <input type="hidden" name="item_number" value="W-D-50">
 <input type="hidden" name="tax" value="0">
 <input type="hidden" name="lc" value="US">

@@ -8,11 +8,8 @@
 
 <title>Donation Example</title>
 
-<!-- START META TAG SECTION -->
 <meta name="Description" content="">
 <meta name="KeyWords" content="">
-<meta charset="UTF-8">
-<!-- END META TAG SECTION -->
 
 <style>
 .button {

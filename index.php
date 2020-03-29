@@ -34,7 +34,7 @@ include'dbconnection.php';
 				      <td><?php echo $row['current'];?></td>
 				      <td><?php echo $row['goal'];?></td>
                                   <td>
-                                    <a href="donate.php?uid=<?php echo $row['id'];?>">Donate</a>
+                                    <a href="donation.html?uid=<?php echo $row['id'];?>">Donate</a>
                                   </td>
                               </tr>
                               <?php $cnt=$cnt+1; }?>
